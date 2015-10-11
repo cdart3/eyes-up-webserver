@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <!-- <rt-require depedency="" as="navbar" > -->
-<!-- <rt-require depedency="" as="aboutus" > -->
+<!-- <rt-require depedency="" as="about" > -->
 <!-- <rt-require depedency="" as="ourmission" > -->
 <!-- <rt-require depedency="" as="team" > -->
 <!-- <rt-require dependency"" as="footer" -->
 
-<div class="nav">
+<div>
+	<p>Hello World</p>
 	<!-- <navbar/> -->
 	<!-- <aboutus/> -->
 	<!-- <ourmission/> -->

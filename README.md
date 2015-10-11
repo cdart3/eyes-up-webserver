@@ -1,3 +1,16 @@
+#compile JS
+```
+gulp browserify
+```
+
+#rt templates
+```
+gulp rt
+```
+
+```
+gulp react-build-iso
+```
 # eyes-up-webserver
 Built using Node, Express, and React
 
