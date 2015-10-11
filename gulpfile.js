@@ -53,7 +53,7 @@ gulp.task('browserify', function() {
 });
 
 // compiles react-templates syntax to regular js for React components
-gulp.task("rt", ['browserify'] ,function(cb) {
+gulp.task("rt",function(cb) {
 	console.log('building react templates');
 	return gulp.src(config.reactTemplatePaths)
 			.pipe($.rt({modules: "commonjs"}).on("error", console.error))
