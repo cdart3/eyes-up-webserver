@@ -11,19 +11,16 @@ var IndexMain = React.createClass({
 	},
 
 	contextTypes: {
-
+		
 	},
 
 	componentWillMount: function() {
-		console.log('component is mounting');
 	},
 
 	componentDidMount: function() {
-		console.log('component did mount');
 	},
 
 	componentWillUnmount: function() {
-		console.log('component unmounted');
 	},
 
 	render: MainTemplate

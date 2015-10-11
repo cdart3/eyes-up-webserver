@@ -17,7 +17,7 @@
 
 	var mountNode = document.getElementById('react-client-rendered-container') || document.createElement('div');
 	Router.run(routes, function(Handler) {
-  		React.render(React.createElement(Handler, {}), document.body);
+  		React.render(React.createElement(Handler, {}), mountNode);
 	});
 
 }());

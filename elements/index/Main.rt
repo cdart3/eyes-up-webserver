@@ -1,7 +1,16 @@
 <!DOCTYPE html>
+<!-- <rt-require depedency="" as="navbar" > -->
+<!-- <rt-require depedency="" as="aboutus" > -->
+<!-- <rt-require depedency="" as="ourmission" > -->
+<!-- <rt-require depedency="" as="team" > -->
+<!-- <rt-require dependency"" as="footer" -->
 
-<div class="test">
-	<p> Hello World!</p>
+<div class="nav">
+	<!-- <navbar/> -->
+	<!-- <aboutus/> -->
+	<!-- <ourmission/> -->
+	<!-- <team/> -->
+	<!-- <footer/> -->
 </div>
 
 

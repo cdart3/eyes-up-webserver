@@ -1,0 +1,19 @@
+{
+  "name": "eyes-up-webserver",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cdart2/eyes-up-webserver",
+  "authors": [
+    "cdart2 <cameron.p.dart@gmail.com>"
+  ],
+  "description": "website for eyes up driving",
+  "main": "bower.json",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/",
+    "test",
+    "tests"
+  ]
+}

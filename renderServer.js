@@ -9,7 +9,7 @@ var express = require('express'),
 app.use('/css', express.static(path.join(__dirname, "/app/css")));
 app.use('/js', express.static(path.join(__dirname, "/app/js")));
 app.use('/app', express.static(path.join(__dirname, "/app")));
-
+app.use('/img', express.static(path.join(__dirname, "/app/img")));
 // Server Side Template
 // just sets up a basic template that i'll show you in a second.
 app.set("views", path.join(__dirname, './pages'));

@@ -24,7 +24,12 @@
     "Eyes Up"
   ],
   "dependencies": {
+    "bower": "^1.5.3",
     "browserify": "11.2.0",
+    "claymate": "^2.0.5",
+    "compass": "^0.1.1",
+    "css-select": "^1.1.0",
+    "css-what": "^2.0.2",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
     "gulp": "^3.9.0",
