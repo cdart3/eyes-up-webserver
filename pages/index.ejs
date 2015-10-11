@@ -1,0 +1,25 @@
+<html>
+	<head>
+	<!-- Include Stylesheets here -->
+	<title>Eyes Up</title>
+
+	</head>
+
+	<body>
+		<!-- Root element for React to grab onto -->
+		<div id="react-client-rendered-container" class="react-root-wrapper">
+			 <%-- reactRenderServerSide %>
+		</div>
+		<!-- Client Side JS -->
+		<script src="/app/dist/clientbundle.js"></script>
+	</body>
+</html>
+
+<!-- 
+	TODO
+	1. Collect Stylesheets and Icons at top of page
+	2. Set EJS variables 
+		 ** Notice how our weird tags < % have the keys to our object in renderServer.js **
+	3. Uglify our CSS and JS using Gulp
+	4. Include it in clientbundle.js to load faster clientside
+ -->
